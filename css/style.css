@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7e6f9;
+    margin: 0;
+    padding: 25px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #7a0066;
+    letter-spacing: 1px;
+}
+
+form {
+    background-color: #ffffff;
+    width: 360px;
+    margin: 25px auto;
+    padding: 22px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    border-top: 4px solid #cc00aa;
+}
+
+#formsalario {
+    margin-bottom: 12px;
+}
+
+#formdespesa {
+    margin-top: 12px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-top: 12px;
+    color: #5c0050;
+}
+
+input {
+    width: 100%;
+    padding: 9px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid #c77acb;
+    background-color: #fff7ff;
+}
+
+button {
+    width: 100%;
+    margin-top: 18px;
+    padding: 11px;
+    background-color: #cc00aa;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #a30088;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 360px;
+    margin: 22px auto;
+}
+
+ul li {
+    background: #ffffff;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border-left: 4px solid #cc00aa;
+    box-shadow: 0 1px 7px rgba(0,0,0,0.12);
+}
+
+#limpar {
+    display: block;
+    margin: 25px auto;
+    background-color: #d14b97;
+    width: 210px;
+}
+
+#limpar:hover {
+    background-color: #b33f80;
+}
